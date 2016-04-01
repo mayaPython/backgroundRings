@@ -65,13 +65,13 @@ mc.scale(7876, 7876, 7876, "POS")
 mc.rotate(0, "45deg", 0,  "POS")
 
 # select backgrounds and the controls
-cmds.select(matteNames, ctrlNames, "POS", r=True )
+mc.select(matteNames, ctrlNames, "POS", r=True )
 #freeze transformations
 mc.makeIdentity(apply=True, t=1, r=1, s=1, n=0)
 #delete history
 mc.bakePartialHistory(matteNames, ctrlNames, "POS", prePostDeformers=True)
 # clear selection
-cmds.select(clear=True)
+mc.select(clear=True)
 
 #parent cylinders to controls
 
