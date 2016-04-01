@@ -1,6 +1,6 @@
 '''
 written by Emily Pollacchi
-  	file name background_rings
+  	file name create_background_rings
   	Copyright (C) 2016 by Emily Pollacchi
   	epollacchi@gmail.com
 '''
